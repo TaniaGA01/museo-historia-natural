@@ -8,7 +8,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:nuxt/recommended",
-    "plugin:vue/vue3-recommended",
+    "plugin:vue/vue3-recommended"
   ],
   parserOptions: {
     ecmaVersion: "latest",
@@ -16,7 +16,5 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["@typescript-eslint"],
-  rules: {
-
-  },
+  rules: {"vue/multi-word-component-names": "off"}
 };

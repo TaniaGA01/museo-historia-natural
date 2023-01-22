@@ -1,5 +1,4 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-import eslintPlugin from 'vite-plugin-eslint';
 export default defineNuxtConfig({
     css: ['~/assets/css/main.css'],
     postcss: {
@@ -8,9 +7,7 @@ export default defineNuxtConfig({
         autoprefixer: {},
         },
     },
-    vite: {
-    plugins: [
-      eslintPlugin()
+    modules: [
+        '@pinia/nuxt',
     ]
-  },
 })
