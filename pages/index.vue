@@ -1,7 +1,4 @@
-<script lang="ts" setup></script>
 <template>
-  <div>
-    Page: Accueil
-  </div>
+  <div>Page: Accueil</div>
+  <Posts />
 </template>
-<style></style>

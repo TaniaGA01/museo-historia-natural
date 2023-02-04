@@ -41,9 +41,13 @@ npm run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-- Tailwind/Nuxt Installation : https://tailwindcss.com/docs/guides/nuxtjs#3
-- Eslint Installation : https://localazy.com/blog/nuxt-3-tailwind-i18n-eslint-starter
-- TypsScript Module Installation : https://typescript.nuxtjs.org/es/guide/setup/
-- Pinia Installation https://pinia.vuejs.org/ssr/nuxt.html#auto-imports
+## All setup project
+
+- Tailwind/Nuxt setup : https://tailwindcss.com/docs/guides/nuxtjs#3
+- Eslint setup : https://localazy.com/blog/nuxt-3-tailwind-i18n-eslint-starter
+- TypsScript Module setup : https://typescript.nuxtjs.org/es/guide/setup/
+- Pinia setup https://pinia.vuejs.org/ssr/nuxt.html#auto-imports
+- Strapi setup https://strapi.nuxtjs.org/setup
+- Markdown-it setup https://github.com/nuxt-community/markdownit-module/issues/47#issuecomment-1345268133
 
 # museo-historia-natural

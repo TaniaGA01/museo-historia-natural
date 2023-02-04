@@ -4,5 +4,5 @@
     <Header />
     <NuxtPage />
     <NuxtLayout />
-  </nuxtlayout>
+  </NuxtLayout>
 </template>

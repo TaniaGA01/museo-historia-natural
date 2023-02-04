@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     },
     vite: {
         css: {
-            // css:['~/assets/sass/default.scss'],
             preprocessorOptions: {
                 scss: {
                 additionalData: '@use "@/assets/sass/_base.scss" as *;'
@@ -23,12 +22,15 @@ export default defineNuxtConfig({
         }
     },
     // ssr: false,
-    // loadingIndicator: {
-    //     name: 'chasing-dots',
-    //     color: 'purple',
-    //     background: 'green'
-    // },
     modules: [
-        '@pinia/nuxt'
+        '@pinia/nuxt',
+        '@nuxtjs/strapi'
     ],
+    strapi: {
+        url: process.env.STRAPI_URL || 'http://localhost:1337',
+        prefix: '/api',
+        version: 'v4',
+        cookie: {},
+        cookieName: 'strapi_jwt'
+    }
 })
