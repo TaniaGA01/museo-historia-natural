@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import ServicesAPI from "@/services/api/strapiAPI";
 const pollService = new ServicesAPI();
-const posts: any = reactive(await pollService.getPosts());
+const posts: { data: object[]; meta: object } | { message: string;data?:any } = reactive(
+  await pollService.getPosts()
+);
 </script>
 <template>
   <div>

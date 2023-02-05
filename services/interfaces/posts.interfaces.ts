@@ -5,8 +5,9 @@ export interface IPost{
     createdAt: string,
     updatedAt: string,
     publishedAt: string,
-    picture:unknown
+    picture:object
 }
 export interface IPostAPIINterface {
-    data: object;
+    data: object[],
+    meta: object
 }
